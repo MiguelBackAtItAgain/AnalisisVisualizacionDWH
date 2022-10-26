@@ -12,3 +12,5 @@ db_context = Db_Connection(
 with db_context.begin():
     truncate(db_context)
     extract(db_context)
+
+##Test comment, oki doki
